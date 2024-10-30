@@ -1,0 +1,64 @@
+import keyMirror from 'key-mirror';
+
+export default keyMirror({
+  /** bigstock.js */
+  ALERT_ERROR: null,
+  BIGSTOCK_LAYOUT_UPDATED: null,
+  LOGIN_UPDATED: null,
+  SEARCH_UPDATED: null,
+  RESULT_UPDATED: null,
+  FACET_UPDATED: null,
+
+  /** Images  */
+  REFRESH_PIC_DETAIL: null,
+  PIC_DETAIL_REFRESHED: null,
+  CLOSE_PIC_DETAIL: null,
+  DOWNLOAD_ASSET: null,
+  ASSET_DOWNLOADED: null,
+  DISPLAY_ACTIVE_STYLE: null,
+  SET_FEATURED_IMAGE: null,
+
+  /** Licenses */
+  REFRESH_LICENSES: null,
+  LICENSES_REFRESHED: null,
+
+  /** Messages */
+  REFRESH_BIGSTOCK_MESSAGES: null,
+  BIGSTOCK_MESSAGES_REFRESHED: null,
+  DISMISS_MESSAGE: null,
+
+  /** Modals */
+  INIT_MODAL: null,
+  DISMISS_MODAL: null,
+  DISMISS_ALL_MODALS: null,
+
+  /** User */
+  REMOVE_USER_SESSION: null,
+  REFRESH_USER_SESSION: null,
+  USER_SESSION_REFRESHED: null,
+  REFRESH_USER_LOGIN: null,
+  USER_LOGIN_ERROR_REFRESHED: null,
+  USER_LOGIN_REFRESHED: null,
+  USER_TOKEN_REFRESHED: null,
+  LOGOUT_USER: null,
+  UPDATE_TOS_AGREEMENT: null,
+  TOS_AGREEMENT_UPDATED: null,
+
+  /** Search */
+  SEARCH_LOADING: null,
+  REFRESH_SEARCH: null,
+  SEARCH_REFRESHED: null,
+  REFRESH_SEARCH_QUERY: null,
+  REFRESH_SEARCH_FACET: null,
+  SEARCH_QUERY_REFRESHED: null,
+  REFRESH_SIMILAR_IMAGES: null,
+  SIMILAR_IMAGES_REFRESHED: null,
+  IMAGE_DETAILS_SWAPPED: null,
+  CLEAR_SWAPPED_IMAGE: null,
+
+  LICENSE_AND_DOWNLOAD_IMAGE_BY_ID: null,
+
+  UPLOAD_WORDPRESS_ASSET: null,
+  LICENSE_ASSET: null,
+  ASSET_LICENSED: null,
+});

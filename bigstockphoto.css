@@ -1,0 +1,30 @@
+.mce-i-bigstock-icon {
+  background: url(img/bigstock-icon.jpg) no-repeat!important;
+}
+.confirm-button {
+  opacity: 1.0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.confirm-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.animate-border {
+  transition: border .75s ease-in-out;
+  -moz-transition: border .75s ease-in-out;
+  -webkit-transition: border .75s ease-in-out;
+}
+#bsp-wp p {
+  font-size: 14px;
+}
+.bsp-media-buttons-icon {
+  background: url(img/bigstock-black-small.png) no-repeat;
+  display: inline-block;
+  height: 15px;
+  margin-top: 3px;
+  margin-right: 4px;
+  margin-bottom: -3px;
+  width: 53px;
+}
